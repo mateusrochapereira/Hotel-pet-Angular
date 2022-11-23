@@ -28,7 +28,13 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/assets/css/nucleo-svg.css",
+              "src/assets/css/nucleo-icons.css",
+              "src/assets/css/font-awesome.css",
+              "src/assets/scss/argon-design-system.scss"
+              
             ],
             "scripts": []
           },
@@ -103,5 +109,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "1551c407-0e28-4d3b-91c0-90e613ab87da"
   }
 }
