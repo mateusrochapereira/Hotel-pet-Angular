@@ -168,10 +168,33 @@ textarea.form-control {
   margin-bottom: $form-group-margin-bottom;
 }
 
+//alterado
+.left-inner-addon i {
+  position: absolute;
+  padding: 14px 14px;
+  pointer-events: none;
+  color: #666;
+}
+.left-inner-addon input.form-control {
+  padding-left: 40px;
+}
+.left-inner-addon {
+  position: relative;
+}
+
+
 .form-text {
   display: block;
   margin-top: $form-text-margin-top;
 }
+
+//feito por nos
+.input-endereco{
+margin-top: 50px;
+  padding-left: 400px;
+  padding-right: 400px;
+  }
+
 
 // Form grid
 //
