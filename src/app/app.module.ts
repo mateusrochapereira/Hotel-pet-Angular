@@ -9,6 +9,7 @@ import { UsuarioComponent } from './components/usuario/usuario.component';
 import { NovoUsuarioComponent } from './components/usuario/novo-usuario/novo-usuario.component';
 import { BuscarComponent } from './components/buscar/buscar.component';
 import { LoginComponent } from './components/login/login.component';
+import { HomeComponent } from './components/home/home.component';
 
 
 @NgModule({
@@ -20,6 +21,7 @@ import { LoginComponent } from './components/login/login.component';
     NovoUsuarioComponent,
     BuscarComponent,
     LoginComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,

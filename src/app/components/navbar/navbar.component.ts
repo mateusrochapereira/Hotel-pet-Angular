@@ -16,5 +16,7 @@ export class NavbarComponent implements OnInit {
   linkParaNovoUsuario(): string[] {
     return ['/novoUsuario'];
   }
-
+  linkParaLogin():string[]{
+    return ['/login']
+  }
 }
