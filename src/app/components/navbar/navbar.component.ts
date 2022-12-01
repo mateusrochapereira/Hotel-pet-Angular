@@ -14,7 +14,7 @@ export class NavbarComponent implements OnInit {
 
   }
   linkParaNovoUsuario(): string[] {
-    return ['/usuario/novo-usuario/novo-usuario.componente.html'];
+    return ['/novoUsuario'];
   }
 
 }
