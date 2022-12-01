@@ -8,6 +8,7 @@ import {FooterComponent} from "./components/footer/footer.component";
 import { UsuarioComponent } from './components/usuario/usuario.component';
 import { NovoUsuarioComponent } from './components/usuario/novo-usuario/novo-usuario.component';
 import { BuscarComponent } from './components/buscar/buscar.component';
+import { LoginComponent } from './components/login/login.component';
 
 
 @NgModule({
@@ -18,6 +19,7 @@ import { BuscarComponent } from './components/buscar/buscar.component';
     UsuarioComponent,
     NovoUsuarioComponent,
     BuscarComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
