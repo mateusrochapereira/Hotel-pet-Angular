@@ -7,14 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
-  
+
   constructor() { }
 
   ngOnInit(): void {
-    
+
   }
-  linkParaNovoEstoque(): string[] {
-    return ['estoque/novo'];
+  linkParaNovoUsuario(): string[] {
+    return ['/usuario/novo-usuario/novo-usuario.componente.html'];
   }
 
 }
