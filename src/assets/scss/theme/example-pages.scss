@@ -4,6 +4,7 @@
   section {
     padding: 80px 0;
   }
+
   .header-5 .navbar {
     display: none;
   }
@@ -62,6 +63,7 @@
   .skew-separator {
     margin-top: -220px !important;
   }
+
   form.card {
     z-index: 2;
   }
@@ -73,6 +75,7 @@
   .header-4 .navbar {
     display: none;
   }
+
   .section-safe {
     .icon {
       i {
@@ -159,6 +162,7 @@
       cursor: pointer;
     }
   }
+
   .input-group {
     .input-number {
       border: none;
@@ -177,6 +181,7 @@
       }
     }
   }
+
   .page-header {
     .shape {
       width: 70%;
@@ -200,6 +205,7 @@
     .carousel-control-next {
       right: -40px;
     }
+
     .carousel-control-prev {
       left: -40px;
     }
@@ -277,6 +283,7 @@
     display: block;
     max-height: initial;
   }
+
   .js-validate {
     .nav-tabs {
       border-bottom: none;
@@ -289,6 +296,149 @@
 .profile-page {
   .card {
     z-index: 2;
+  }
+}
+
+//feito por nos
+.login-tela {
+  body {
+
+    padding: 0;
+
+    margin: 0;
+
+    background-color: #125688;
+
+  }
+
+  #login {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    height: 100vh;
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+  }
+
+  .card {
+
+    background-color: rgba(19, 19, 19, 0.3);
+
+    padding: 40px;
+
+    border-radius: 2px;
+
+    width: 500px;
+
+  }
+
+  .card-header {
+
+    padding-bottom: 50px;
+
+    opacity: 0.8;
+
+    color: #fff;
+
+  }
+
+  .card-header::after {
+
+    content: "";
+
+    width: 70px;
+
+    height: 1px;
+
+    background-color: #fff;
+
+    display: block;
+
+    margin-top: -17px;
+
+    margin-left: -5px;
+
+  }
+
+  .card-content label {
+
+    color: #fff;
+
+    font-size: 12px;
+
+    opacity: 0.8;
+
+  }
+
+  .card-content-area {
+
+    display: flex;
+
+    flex-direction: column;
+
+    padding: 10px 0;
+
+  }
+
+  .card-content-area input {
+
+    margin-top: 10px;
+
+    padding: 0 5px;
+
+    background-color: transparent;
+
+    border: none;
+
+    border-bottom: 1px solid #e1e1e1;
+
+    outline: none;
+
+    color: #fff;
+
+  }
+
+  .card-footer {
+
+    display: flex;
+
+    flex-direction: column;
+
+  }
+
+  .card-footer .submit {
+
+    width: 100%;
+
+    height: 40px;
+
+    background-color: #a13854;
+
+    border: none;
+
+    color: #e1e1e1;
+
+    margin: 10px 0;
+
+  }
+
+  .card-footer a {
+
+    text-align: center;
+
+    font-size: 12px;
+
+    opacity: 0.8;
+
+    color: #000000;
+
+    text-decoration: #2a2730;
+
   }
 }
 
@@ -310,6 +460,7 @@
     z-index: 2;
     position: relative;
   }
+
   .chat {
     border-top: none;
   }
@@ -346,9 +497,11 @@
         margin: 0 !important;
         margin-right: 30px !important;
       }
+
       .category {
         padding-right: 5px !important;
       }
+
       .description {
         padding: 12px 2px !important;
       }
@@ -360,6 +513,7 @@
     .glide__arrow--left {
       left: 40%;
     }
+
     .glide__arrow--right {
       right: 40%;
     }
@@ -448,6 +602,7 @@
       .carousel-control-next {
         right: -15px;
       }
+
       .carousel-control-prev {
         left: -20px;
       }
@@ -462,6 +617,7 @@
     .glide__arrow--left {
       left: 30%;
     }
+
     .glide__arrow--right {
       right: 30%;
     }
@@ -488,16 +644,19 @@
   .section-safe {
     .card.card-stats {
       position: absolute;
+
       &:nth-of-type(1) {
         width: 140px;
         top: -55px;
         left: 200px;
       }
+
       &:nth-of-type(2) {
         width: 200px;
         top: 150px;
         left: -81px;
       }
+
       &:nth-of-type(3) {
         width: 130px;
         top: 240px;
